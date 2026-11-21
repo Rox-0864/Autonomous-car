@@ -1,0 +1,17 @@
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Modelos entrenados (se regeneran con `python main.py train`) ---
+models/
+*.pkl
+
+# --- Sistema / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
