@@ -54,6 +54,10 @@ source .venv/bin/activate          # Linux/macOS
 pip install -r requirements.txt
 ```
 
+> ⚠️ **Importante:** usá `neat-python==0.92` (ya pineado en `requirements.txt`).
+> La versión `2.x` cambió el formato del archivo de configuración NEAT y **rompe**
+> `config-feedforward.txt`.
+
 ## Pistas
 
 Las pistas de entrenamiento (`images/track1.png` … `images/track9.webp`) **no
